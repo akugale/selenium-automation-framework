@@ -1,15 +1,19 @@
 package com.careir.automation.pages.admin;
 
 import com.careir.automation.base.BasePage;
-import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 /**
  * Admin module — role-based navigation checks (Maker vs Checker capabilities).
  */
 public class AdminHomePage extends BasePage {
 
-    private final By makerNav = By.cssSelector("[data-testid='ir-nav-maker']");
-    private final By checkerNav = By.cssSelector("[data-testid='ir-nav-checker']");
+    @FindBy(css = "[data-testid='ir-nav-maker']")
+    private WebElement makerNav;
+
+    @FindBy(css = "[data-testid='ir-nav-checker']")
+    private WebElement checkerNav;
 
     public AdminHomePage openAdmin() {
         navigateTo("admin");
@@ -17,10 +21,18 @@ public class AdminHomePage extends BasePage {
     }
 
     public boolean isMakerSectionPresent() {
-        return !driver.findElements(makerNav).isEmpty();
+        try {
+            return makerNav.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public boolean isCheckerSectionPresent() {
-        return !driver.findElements(checkerNav).isEmpty();
+        try {
+            return checkerNav.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
     }
 }

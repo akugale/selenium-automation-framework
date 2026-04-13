@@ -1,17 +1,25 @@
 package com.careir.automation.pages;
 
 import com.careir.automation.base.BasePage;
-import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 /**
  * Checker flow: authorization queue (pending items). Approve / reject actions.
  */
 public class AuthorizationQueuePage extends BasePage {
 
-    private final By queueTable = By.cssSelector("[data-testid='ir-auth-queue-table']");
-    private final By rowByRequestId = By.cssSelector("[data-testid='ir-auth-row']");
-    private final By approveButton = By.cssSelector("button[data-testid='ir-auth-approve']");
-    private final By rejectButton = By.cssSelector("button[data-testid='ir-auth-reject']");
+    @FindBy(css = "[data-testid='ir-auth-queue-table']")
+    private WebElement queueTable;
+
+    @FindBy(css = "[data-testid='ir-auth-row']")
+    private WebElement rowByRequestId;
+
+    @FindBy(css = "button[data-testid='ir-auth-approve']")
+    private WebElement approveButton;
+
+    @FindBy(css = "button[data-testid='ir-auth-reject']")
+    private WebElement rejectButton;
 
     public AuthorizationQueuePage openQueue() {
         navigateTo("authorization/queue");

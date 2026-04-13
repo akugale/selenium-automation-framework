@@ -1,15 +1,19 @@
 package com.careir.automation.pages.refdata;
 
 import com.careir.automation.base.BasePage;
-import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 /**
  * Reference Data module — list + CRUD entry points. Tune selectors to your Angular grid/dialogs.
  */
 public class ReferenceDataListPage extends BasePage {
 
-    private final By addButton = By.cssSelector("button[data-testid='ir-refdata-add']");
-    private final By searchInput = By.cssSelector("input[data-testid='ir-refdata-search']");
+    @FindBy(css = "button[data-testid='ir-refdata-add']")
+    private WebElement addButton;
+
+    @FindBy(css = "input[data-testid='ir-refdata-search']")
+    private WebElement searchInput;
 
     public ReferenceDataListPage openModule() {
         navigateTo("reference-data");
@@ -22,6 +26,6 @@ public class ReferenceDataListPage extends BasePage {
 
     public void search(String text) {
         waits().forVisible(searchInput).clear();
-        driver.findElement(searchInput).sendKeys(text);
+        searchInput.sendKeys(text);
     }
 }

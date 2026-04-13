@@ -1,7 +1,8 @@
 package com.careir.automation.pages;
 
 import com.careir.automation.base.BasePage;
-import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 /**
  * Maker flow: create/edit rating request before authorization.
@@ -9,11 +10,20 @@ import org.openqa.selenium.By;
  */
 public class MakerRatingRequestPage extends BasePage {
 
-    private final By newRequestButton = By.cssSelector("button[data-testid='ir-maker-new-request']");
-    private final By customerField = By.cssSelector("input[data-testid='ir-rating-customer-id']");
-    private final By notesField = By.cssSelector("textarea[data-testid='ir-rating-notes']");
-    private final By saveDraftButton = By.cssSelector("button[data-testid='ir-rating-save-draft']");
-    private final By submitForAuthButton = By.cssSelector("button[data-testid='ir-rating-submit-auth']");
+    @FindBy(css = "button[data-testid='ir-maker-new-request']")
+    private WebElement newRequestButton;
+
+    @FindBy(css = "input[data-testid='ir-rating-customer-id']")
+    private WebElement customerField;
+
+    @FindBy(css = "textarea[data-testid='ir-rating-notes']")
+    private WebElement notesField;
+
+    @FindBy(css = "button[data-testid='ir-rating-save-draft']")
+    private WebElement saveDraftButton;
+
+    @FindBy(css = "button[data-testid='ir-rating-submit-auth']")
+    private WebElement submitForAuthButton;
 
     public MakerRatingRequestPage openMakerWorkspace() {
         navigateTo("rating/maker");
@@ -27,9 +37,9 @@ public class MakerRatingRequestPage extends BasePage {
 
     public MakerRatingRequestPage fillBasicDetails(String customerId, String notes) {
         waits().forVisible(customerField).clear();
-        driver.findElement(customerField).sendKeys(customerId);
+        customerField.sendKeys(customerId);
         waits().forVisible(notesField).clear();
-        driver.findElement(notesField).sendKeys(notes);
+        notesField.sendKeys(notes);
         return this;
     }
 

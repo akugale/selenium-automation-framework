@@ -30,8 +30,16 @@ public class WaitUtils {
         return wait(defaultSeconds).until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+    public WebElement forVisible(WebElement element) {
+        return wait(defaultSeconds).until(ExpectedConditions.visibilityOf(element));
+    }
+
     public WebElement forClickable(By locator) {
         return wait(defaultSeconds).until(ExpectedConditions.elementToBeClickable(locator));
+    }
+
+    public WebElement forClickable(WebElement element) {
+        return wait(defaultSeconds).until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public boolean forInvisible(By locator) {
