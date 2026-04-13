@@ -44,17 +44,23 @@ public final class DriverFactory {
     private static WebDriver createChrome() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
+        // QA environments often use self-signed / internal PKI certs.
+        // This avoids Chrome's "Your connection is not private" interstitial.
+        options.setAcceptInsecureCerts(true);
         if (ConfigReader.getBoolean("headless", false)) {
             options.addArguments("--headless=new");
         }
         options.addArguments("--start-maximized");
         options.addArguments("--disable-notifications");
+        options.addArguments("--ignore-certificate-errors");
+        options.addArguments("--allow-insecure-localhost");
         return new ChromeDriver(options);
     }
 
     private static WebDriver createEdge() {
         WebDriverManager.edgedriver().setup();
         EdgeOptions options = new EdgeOptions();
+        options.setAcceptInsecureCerts(true);
         if (ConfigReader.getBoolean("headless", false)) {
             options.addArguments("--headless=new");
         }
