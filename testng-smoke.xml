@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CareIR smoke" parallel="methods" thread-count="2" verbose="1">
+    <listeners>
+        <listener class-name="com.careir.automation.tests.listeners.ExtentTestListener"/>
+    </listeners>
+    <test name="Smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.careir.automation.tests"/>
+        </packages>
+    </test>
+</suite>

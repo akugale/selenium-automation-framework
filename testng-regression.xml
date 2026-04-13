@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CareIR regression" parallel="tests" thread-count="3" verbose="1">
+    <listeners>
+        <listener class-name="com.careir.automation.tests.listeners.ExtentTestListener"/>
+    </listeners>
+    <test name="Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.careir.automation.tests"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+{
+  "maker": {
+    "username": "maker_user",
+    "password": "CHANGE_ME"
+  },
+  "checker": {
+    "username": "checker_user",
+    "password": "CHANGE_ME"
+  },
+  "ratingRequest": {
+    "customerId": "CUST-0001",
+    "notes": "Automation draft — Maker step"
+  }
+}

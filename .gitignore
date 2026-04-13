@@ -1,0 +1,7 @@
+/target/
+/test-output/
+/logs/
+/screenshots/
+/reports/
+/downloads/
+*.log

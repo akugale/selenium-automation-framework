@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CareIR CI sanity" verbose="1">
+    <listeners>
+        <listener class-name="com.careir.automation.tests.listeners.ExtentTestListener"/>
+    </listeners>
+    <test name="CI_toolchain">
+        <groups>
+            <run>
+                <include name="ci"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.careir.automation.tests.ci.CiSanityTest"/>
+        </classes>
+    </test>
+</suite>

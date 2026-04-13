@@ -1,11 +1,12 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Flipkart Suite" parallel="tests" thread-count="3">
- <listeners>
-    <listener class-name="com.yourcompany.framework.core.TestListener"/>
-  </listeners>
-  <test name="LoginTests">
-    <classes>
-      <class name="com.yourcompany.tests.tests.LoginTest"/>
-    </classes>
-  </test>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CareIR automation" parallel="tests" thread-count="3" verbose="1">
+    <listeners>
+        <listener class-name="com.careir.automation.tests.listeners.ExtentTestListener"/>
+    </listeners>
+    <test name="IR_UI_Suite">
+        <packages>
+            <package name="com.careir.automation.tests.auth"/>
+            <package name="com.careir.automation.tests.workflow"/>
+        </packages>
+    </test>
 </suite>
