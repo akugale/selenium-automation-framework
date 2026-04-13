@@ -1,0 +1,85 @@
+2026-04-13 11:54:08 INFO  ConfigReader:26 - Automation config env='qa' overlayLoaded=true
+2026-04-13 11:54:08 INFO  LoginTest:21 - Reading login data from classpath: testdata/login.xlsx
+2026-04-13 11:54:25 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:54:25 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:54:44 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:54:44 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:55:06 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:55:06 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:55:35 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:55:35 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:55:58 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:55:58 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:56:24 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:56:24 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:56:45 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:56:45 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:57:05 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:57:05 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:57:27 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:57:27 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:57:47 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:57:47 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:58:07 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:58:07 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:58:27 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:58:27 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:58:47 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:58:47 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:59:06 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:59:06 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:59:14 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:59:14 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:59:23 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:59:23 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 11:59:43 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 11:59:43 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:00:09 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:00:09 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:00:38 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:00:38 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:00:55 INFO  ConfigReader:26 - Automation config env='qa' overlayLoaded=true
+2026-04-13 12:00:55 INFO  LoginTest:21 - Reading login data from classpath: testdata/login.xlsx
+2026-04-13 12:00:59 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:00:59 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:01:02 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:01:02 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:01:22 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:01:22 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:01:27 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:01:27 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:01:41 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:01:41 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:01:45 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:01:47 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:01:47 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:01:50 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:01:50 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:02:08 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:02:08 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:02:15 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:02:15 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:02:32 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:02:32 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:02:37 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:02:37 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:02:52 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:02:52 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:02:59 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:02:59 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:03:12 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:03:12 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:03:17 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:03:17 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:03:31 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:03:31 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:03:37 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:03:37 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:03:49 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:03:49 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:03:57 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:03:57 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:04:07 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:04:07 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:04:11 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:04:11 INFO  LoginTest:33 - Executing login smoke for user vendor
