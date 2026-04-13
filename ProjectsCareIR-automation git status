@@ -1,0 +1,47 @@
+[33mcommit 5ee80cc9fdcc5c3cbced11761856d96fcda7b69f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: akugale <ak.ugale27@gmail.com>
+Date:   Mon Apr 13 12:18:36 2026 +0530
+
+    Enhance Chrome and Edge driver configurations to accept insecure certificates for QA environments
+
+[33mcommit a82beca873df65892762ac6849d69b195fecf70d[m
+Author: akugale <ak.ugale27@gmail.com>
+Date:   Mon Apr 13 12:17:44 2026 +0530
+
+    Enhance Chrome and Edge driver configurations to accept insecure certificates for QA environments
+
+[33mcommit 2cdeba2e6d13835d907acfdd88e4cd08acfda636[m
+Author: akugale <ak.ugale27@gmail.com>
+Date:   Mon Apr 13 11:55:27 2026 +0530
+
+    package name update
+
+[33mcommit 1936e29252b06d28f760997b4b7cd9d7a145a469[m[33m ([m[1;31morigin/2026-04-13-1uqh[m[33m, [m[1;32m2026-04-13-1uqh[m[33m)[m
+Author: akugale <ak.ugale27@gmail.com>
+Date:   Mon Apr 13 11:33:30 2026 +0530
+
+    initial env setup with QA url
+
+[33mcommit caeac9d5cd327d8c9d2b6d64a8b01d9bd8825140[m
+Author: akugale <ak.ugale27@gmail.com>
+Date:   Mon Apr 13 11:33:07 2026 +0530
+
+    initial env setup with QA url
+
+[33mcommit eed5b213f8221bd15ce74463e6d600348d54ebf9[m
+Author: akugale <ak.ugale27@gmail.com>
+Date:   Mon Apr 13 11:32:33 2026 +0530
+
+    initial env setup with QA url
+
+[33mcommit 6e49530c43004c2660d6160c885fd751ce5b3850[m
+Author: akugale <ak.ugale27@gmail.com>
+Date:   Mon Apr 13 11:32:02 2026 +0530
+
+    initial env setup with QA url
+
+[33mcommit db6e4974035284ab2297d19098cdf4e184fe6dca[m
+Author: AKshay <ak.ugale27@gmail.com>
+Date:   Sun Mar 15 12:12:58 2026 +0530
+
+    Innitial automation framework
