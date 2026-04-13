@@ -83,3 +83,17 @@
 2026-04-13 12:04:07 INFO  LoginTest:33 - Executing login smoke for user vendor
 2026-04-13 12:04:11 INFO  DriverFactory:41 - WebDriver started: chrome
 2026-04-13 12:04:11 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:22:41 INFO  ConfigReader:26 - Automation config env='qa' overlayLoaded=true
+2026-04-13 12:22:41 INFO  LoginTest:21 - Reading login data from classpath: testdata/login.xlsx
+2026-04-13 12:22:44 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:22:44 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:23:04 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:23:04 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:23:23 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:23:23 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:23:42 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:23:42 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:24:03 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:24:03 INFO  LoginTest:33 - Executing login smoke for user vendor
+2026-04-13 12:24:22 INFO  DriverFactory:41 - WebDriver started: chrome
+2026-04-13 12:24:22 INFO  LoginTest:33 - Executing login smoke for user vendor
